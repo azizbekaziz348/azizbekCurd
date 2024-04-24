@@ -1,0 +1,78 @@
+.jadval {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 1000px;
+    margin: auto;
+}
+
+.jadval td, .jadval th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 87px;
+}
+
+
+.edit__modal {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    border: 1px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(63, 63, 63, 0.269);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    text-align: center;
+}
+.kel{
+padding: 10px 20px;
+font-size: 15px;
+background-color: rgb(121, 156, 170);
+color: rgb(0, 0, 0);
+border-radius: 10px;
+}
+#btn{
+    margin-top: 15px;
+    font-size: 25px;
+    padding: 10px 340px;
+    background-color: rgb(104, 135, 135);
+    border-radius: 15px;
+    color: black;
+}
+table{
+  background-color: rgb(157, 174, 174);
+  color: black;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.modal__content {
+    position: relative;
+    padding: 30px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.modal__close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px;
+}	
+
+.bxs-edit{
+    font-size: 20px;
+    color: blue;
+}
+.bxs-trash{
+    font-size: 20px;
+    color: red;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
